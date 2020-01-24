@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hebi_description
+    relative_path: urdf/kits/HEBI_Scara.xacro
+    xacro_args: --xacro-ns
+  SRDF:
+    relative_path: config/HEBI_Scara.srdf
+  CONFIG:
+    author_name: David Speck
+    author_email: david.speck@student.uva.nl
+    generated_timestamp: 1579779954
