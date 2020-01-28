@@ -1,6 +1,6 @@
 controller_list:
   - name: fake_hebi_arm_controller
     joints:
-      - HEBI/J1_shoulder/X8_9
-      - HEBI/J2_elbow/X8_9
-      - HEBI/J3_wrist/X8_9
+      - Arm/J1_shoulder/X8_9
+      - Arm/J2_elbow/X8_9
+      - Arm/J3_wrist/X8_9
