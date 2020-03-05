@@ -1,0 +1,7 @@
+controller_list:
+  - name: fake_hebi_arm_controller
+    joints:
+      - prismatic
+      - Arm/J1_shoulder
+      - Arm/J2_elbow
+      - Arm/J3_wrist
