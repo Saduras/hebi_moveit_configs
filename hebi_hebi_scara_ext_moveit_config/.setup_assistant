@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: David Speck
     author_email: david.speck@student.uva.nl
-    generated_timestamp: 1583418535
+    generated_timestamp: 1583420429

@@ -25,7 +25,12 @@ controller_list:
     default: True
     type: FollowJointTrajectory
     joints:
-      - prismatic
       - Arm/J1_shoulder
       - Arm/J2_elbow
       - Arm/J3_wrist
+  - name: rail_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      prismatic
